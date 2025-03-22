@@ -3,21 +3,21 @@
 <!-- BEGIN HEAD -->
 
 <head>
-        <link rel="canonical" href="https://appvpn.github.io/news/article-77695.htm" />
+        <link rel="canonical" href="https://appvpn.github.io/news/article-79068.htm" />
     <meta charset="utf-8" />
-    <title>计算器——安卓移动开发</title>
-        <meta name="description" content="计算器–安卓用移动开发  一、计算器功能的实现** 1、计算机布局。  activity_main_xmal &lt;TableLayout xmlns:android="http://schemas" />
+    <title>文本垂直居中的两种解决办法</title>
+        <meta name="description" content="方法一：利用line-height与text-align 1）css部分 &lt;style&gt;         .box {             height: 100px;        " />
         <link rel="icon" href="/assets/website/img/vlessgithub/favicon.ico" type="image/x-icon"/>
 
     <meta name="author" content="APP VPN 推荐免费VPN节点订阅中文网">
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://appvpn.github.io/news/article-77695.htm" />
+    <meta property="og:url" content="https://appvpn.github.io/news/article-79068.htm" />
     <meta property="og:site_name" content="APP VPN 推荐免费VPN节点订阅中文网" />
-    <meta property="og:title" content="计算器——安卓移动开发" />
-    <meta property="og:image" content="https://appvpn.github.io/uploads/20240903/7da15e4db52c99af2dbafefc09df5ebe.webp" />
-        <meta property="og:release_date" content="2025-03-20T10:01:43" />
-    <meta property="og:updated_time" content="2025-03-20T10:01:43" />
-        <meta property="og:description" content="计算器–安卓用移动开发  一、计算器功能的实现** 1、计算机布局。  activity_main_xmal &lt;TableLayout xmlns:android="http://schemas" />
+    <meta property="og:title" content="文本垂直居中的两种解决办法" />
+    <meta property="og:image" content="https://appvpn.github.io/uploads/20240903/5b3210ba4c5be21f6ae6d11e3d6b6023.webp" />
+        <meta property="og:release_date" content="2025-03-22T08:48:42" />
+    <meta property="og:updated_time" content="2025-03-22T08:48:42" />
+        <meta property="og:description" content="方法一：利用line-height与text-align 1）css部分 &lt;style&gt;         .box {             height: 100px;        " />
         
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -29,7 +29,7 @@
     <meta name="robots" content="max-image-preview:large" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="计算器——安卓移动开发">
+    <meta name="apple-mobile-web-app-title" content="文本垂直居中的两种解决办法">
     <meta name="format-detection" content="telephone=no">
 
     <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="col-sm-6 sm-margin-b-60">
                     <div class="margin-b-30">
-                        <h1 class="promo-block-title">计算器——安卓移动开发</h1>
+                        <h1 class="promo-block-title">文本垂直居中的两种解决办法</h1>
                         <p class="promo-block-text">
                             <a href="/">首页</a> / <a href="/news/">新闻资讯</a> / 正文
                         </p>
@@ -130,10 +130,10 @@
             <div class="row">
                 <div class="col-md-9">
                                     <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
-                  				  				  				<div id="content_views" class="markdown_views prism-atom-one-dark"> <h2> <a id="_0" rel="nofollow"></a><strong>计算器–安卓用移动开发</strong><br /> </h2> <p>一、计算器功能的实现**<br /> 1、计算机布局。</p> <p><img decoding="async" src="http://img.555519.xyz/uploads/20230108/59e1e1750c76511d0832a9d9fafc7a02.jpg" alt="计算器——安卓移动开发"><br /> activity_main_xmal</p> <pre><code>&lt;TableLayout xmlns:android="http://schemas.android.com/apk/res/android"     xmlns:tools="http://schemas.android.com/tools"     android:id="@+id/TableLayout1"     android:layout_width="match_parent"     android:layout_height="match_parent"     android:paddingBottom="@dimen/activity_vertical_margin"     android:paddingLeft="@dimen/activity_horizontal_margin"     android:paddingRight="@dimen/activity_horizontal_margin"     android:paddingTop="@dimen/activity_vertical_margin"     tools:context=".MainActivity" &gt;      &lt;TableRow         android:id="@+id/tableRow1"         android:layout_width="wrap_content"         android:layout_height="wrap_content" &gt;          &lt;TextView             android:id="@+id/textView1"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:layout_marginBottom="24dp"             android:text="" /&gt;      &lt;/TableRow&gt;      &lt;TableRow         android:id="@+id/tableRow2"         android:layout_width="wrap_content"         android:layout_height="wrap_content" &gt;          &lt;Button             android:id="@+id/button4"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="7" /&gt;          &lt;Button             android:id="@+id/button5"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="8" /&gt;          &lt;Button             android:id="@+id/button6"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="9" /&gt;          &lt;Button             android:id="@+id/button2"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="/" /&gt;      &lt;/TableRow&gt;      &lt;TableRow         android:id="@+id/tableRow3"         android:layout_width="wrap_content"         android:layout_height="wrap_content" &gt;          &lt;Button             android:id="@+id/button8"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="4" /&gt;          &lt;Button             android:id="@+id/button9"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="5" /&gt;          &lt;Button             android:id="@+id/button10"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="6" /&gt;          &lt;Button             android:id="@+id/button3"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="*" /&gt;      &lt;/TableRow&gt;      &lt;TableRow         android:id="@+id/tableRow4"         android:layout_width="wrap_content"         android:layout_height="wrap_content" &gt;          &lt;Button             android:id="@+id/button12"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="1" /&gt;          &lt;Button             android:id="@+id/button13"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="2" /&gt;          &lt;Button             android:id="@+id/button14"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="3" /&gt;          &lt;Button             android:id="@+id/button7"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="-" /&gt;      &lt;/TableRow&gt;      &lt;TableRow         android:id="@+id/tableRow5"         android:layout_width="wrap_content"         android:layout_height="wrap_content" &gt;          &lt;Button             android:id="@+id/button1"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="C" /&gt;          &lt;Button             android:id="@+id/button16"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="." /&gt;          &lt;Button             android:id="@+id/button15"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="0" /&gt;          &lt;Button             android:id="@+id/button11"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:text="+" /&gt;      &lt;/TableRow&gt;     &lt;Button         android:id="@+id/button17"         android:layout_width="wrap_content"         android:layout_height="wrap_content"         android:text="=" /&gt; &lt;/TableLayout&gt;  </code></pre> <p>2、效果图<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230108/c469c3261ed5d20b27d030aa31037557.jpg" alt="计算器——安卓移动开发"></p> <h2></h2> </p></div> 			                <div class="clearfix"></div>
+                  				  				  				<div id="content_views" class="htmledit_views"> <p>方法一：利用line-height与text-align</p> <p>1）css部分</p> <pre><code class="language-html">&lt;style&gt;         .box {             height: 100px;             color:#fff;             background-color: lightskyblue;             text-align: center;             line-height: 100px;             vertical-align: middle;         }     &lt;/style&gt;</code></pre> <p>2）html部分</p> <pre><code class="language-html"> &lt;div class="box"&gt;         &lt;span&gt;hello world&lt;/span&gt;     &lt;/div&gt;</code></pre> <p>3）效果展示</p> <p style="text-align:center;"><img decoding="async" alt="" src="http://img.555519.xyz/uploads3/20220605/6490f7f2eb7bee04c727e7ed0dd544f5.jpg"></p> <p>方法二：利用vertical-align和text-align</p> <p>原理：给class为box的div追加一个子元素，让其高度与父元素高度相同，通过vertical-align使其与文本的1/2处对齐。</p> <p>1）css部分</p> <pre><code class="language-html">&lt;style&gt;         .box {             height: 100px;             color:#fff;             background-color: lightseagreen;             text-align: center;             /* line-height: 100px; */             /* vertical-align: middle; */         }         .box::after{             content: '';             display: inline-block;             height: 100px;             vertical-align: middle;         }     &lt;/style&gt;</code></pre> <p>2）html部分</p> <pre><code class="language-html">&lt;div class="box"&gt;         &lt;span&gt;hello world&lt;/span&gt;     &lt;/div&gt;</code></pre> <p>3）效果展示</p> <p style="text-align:center;"><img decoding="async" alt="" src="http://img.555519.xyz/uploads3/20220605/c2429d62bcb5bd5a7dfe91fa5cb3cd56.jpg"></p> </div> 			                <div class="clearfix"></div>
                 <div class="col-md-12 mt-5">
-                                        <p>上一个：<a href="/news/article-77015.htm">宠物粮食属于什么行业（宠物粮食属于什么行业分类）</a></p>
-                                        <p>下一个：<a href="/news/article-77696.htm">南平宠物救助站电话（南平动物救助站）</a></p>
+                                        <p>上一个：<a href="/news/article-78394.htm">动物疫苗的管理方法有哪些呢图片（动物疫苗接种技术）</a></p>
+                                        <p>下一个：<a href="/news/article-79069.htm">瑞派宠物医院价格表（瑞派宠物医院贵吗）</a></p>
                                     </div>
                                 </div>
                 <div class="col-md-3">
@@ -143,16 +143,16 @@
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/news/article-75675.htm" title="领养宠物要钱么现在（领养宠物需要交钱吗）">领养宠物要钱么现在（领养宠物需要交钱吗）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-3-19-free-node-subscribe.htm" title="APP VPN | 3月19日18M/S|免费SSR/Shadowrocket/V2ray/Clash订阅节点地址">APP VPN | 3月19日18M/S|免费SSR/Shadowrocket/V2ray/Clash订阅节点地址</a></li>
                         <li class="py-2"><a href="/news/article-76331.htm" title="狗粮加工厂前景如何发展起来（做一个狗粮加工厂怎么样）">狗粮加工厂前景如何发展起来（做一个狗粮加工厂怎么样）</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-3-22-free-node-subscribe-links.htm" title="APP VPN | 3月22日22.8M/S|免费Shadowrocket/SSR/V2ray/Clash订阅节点地址">APP VPN | 3月22日22.8M/S|免费Shadowrocket/SSR/V2ray/Clash订阅节点地址</a></li>
+                        <li class="py-2"><a href="/news/article-78393.htm" title="Prim 最小生成树 图解_在线工具">Prim 最小生成树 图解_在线工具</a></li>
+                        <li class="py-2"><a href="/news/article-75676.htm" title="动物医院上班怎么样工资高吗 动物医院上班怎么样工资高吗知乎">动物医院上班怎么样工资高吗 动物医院上班怎么样工资高吗知乎</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-3-16-free-node-subscribe.htm" title="APP VPN | 3月16日19.1M/S|免费Clash/SSR/Shadowrocket/V2ray订阅节点地址">APP VPN | 3月16日19.1M/S|免费Clash/SSR/Shadowrocket/V2ray订阅节点地址</a></li>
+                        <li class="py-2"><a href="/news/article-77015.htm" title="宠物粮食属于什么行业（宠物粮食属于什么行业分类）">宠物粮食属于什么行业（宠物粮食属于什么行业分类）</a></li>
+                        <li class="py-2"><a href="/news/article-77695.htm" title="计算器——安卓移动开发">计算器——安卓移动开发</a></li>
                         <li class="py-2"><a href="/news/article-79069.htm" title="瑞派宠物医院价格表（瑞派宠物医院贵吗）">瑞派宠物医院价格表（瑞派宠物医院贵吗）</a></li>
                         <li class="py-2"><a href="/news/article-74609.htm" title="养猫要打多少针花多少钱（养猫要打几针）">养猫要打多少针花多少钱（养猫要打几针）</a></li>
-                        <li class="py-2"><a href="/news/article-77695.htm" title="计算器——安卓移动开发">计算器——安卓移动开发</a></li>
-                        <li class="py-2"><a href="/news/article-77696.htm" title="南平宠物救助站电话（南平动物救助站）">南平宠物救助站电话（南平动物救助站）</a></li>
-                        <li class="py-2"><a href="/news/article-77015.htm" title="宠物粮食属于什么行业（宠物粮食属于什么行业分类）">宠物粮食属于什么行业（宠物粮食属于什么行业分类）</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-3-19-free-node-subscribe.htm" title="APP VPN | 3月19日18M/S|免费SSR/Shadowrocket/V2ray/Clash订阅节点地址">APP VPN | 3月19日18M/S|免费SSR/Shadowrocket/V2ray/Clash订阅节点地址</a></li>
-                        <li class="py-2"><a href="/news/article-75676.htm" title="动物医院上班怎么样工资高吗 动物医院上班怎么样工资高吗知乎">动物医院上班怎么样工资高吗 动物医院上班怎么样工资高吗知乎</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-3-22-free-node-subscribe-links.htm" title="APP VPN | 3月22日22.8M/S|免费Shadowrocket/SSR/V2ray/Clash订阅节点地址">APP VPN | 3月22日22.8M/S|免费Shadowrocket/SSR/V2ray/Clash订阅节点地址</a></li>
                     </ul>
     </div>
 </div>
