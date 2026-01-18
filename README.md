@@ -1,4 +1,4 @@
-# APP VPN | 1月10日20.7M/S|免费V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点订阅节点地址  更新时间 2026-01-10 10:52:05
+# APP VPN | 1月18日23M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点订阅节点地址  更新时间 2026-01-18 09:01:32
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://appvpn.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://appvpn.github.io/uploads/2026/01/0-20260110.yaml
-- https://appvpn.github.io/uploads/2026/01/1-20260110.yaml
-- https://appvpn.github.io/uploads/2026/01/2-20260110.yaml
-- https://appvpn.github.io/uploads/2026/01/3-20260110.yaml
-- https://appvpn.github.io/uploads/2026/01/4-20260110.yaml
+- https://appvpn.github.io/uploads/2026/01/0-20260118.yaml
+- https://appvpn.github.io/uploads/2026/01/1-20260118.yaml
+- https://appvpn.github.io/uploads/2026/01/2-20260118.yaml
+- https://appvpn.github.io/uploads/2026/01/3-20260118.yaml
+- https://appvpn.github.io/uploads/2026/01/4-20260118.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://appvpn.github.io/uploads/2026/01/0-20260110.txt
-- https://appvpn.github.io/uploads/2026/01/1-20260110.txt
-- https://appvpn.github.io/uploads/2026/01/2-20260110.txt
-- https://appvpn.github.io/uploads/2026/01/3-20260110.txt
-- https://appvpn.github.io/uploads/2026/01/4-20260110.txt
+- https://appvpn.github.io/uploads/2026/01/0-20260118.txt
+- https://appvpn.github.io/uploads/2026/01/1-20260118.txt
+- https://appvpn.github.io/uploads/2026/01/2-20260118.txt
+- https://appvpn.github.io/uploads/2026/01/3-20260118.txt
+- https://appvpn.github.io/uploads/2026/01/4-20260118.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://appvpn.github.io/uploads/2026/01/20260110.json
+- https://appvpn.github.io/uploads/2026/01/20260118.json
 
 ## 更多Clash节点订阅 ：
 
