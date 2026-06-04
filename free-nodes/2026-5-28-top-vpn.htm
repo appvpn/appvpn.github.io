@@ -329,22 +329,13 @@ ip route flush table 100
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2026-5-27-vpn-github.htm">APP VPN | 5月27日19.9M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点订阅节点地址</a></p>
+        <p>下一个：<a href="/free-nodes/2026-5-29-vpn-github.htm">APP VPN | 5月29日18.1M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点/Trojan节点订阅节点地址</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>QuantumultX 的重写规则能做什么？</h5></div>
+    <div class="panel-heading"><h5>WinXray 的测速功能如何使用？</h5></div>
     <div class="panel-body">
-        重写（Rewrite）可用于修改请求头、屏蔽广告、替换响应内容等。通过正则匹配目标请求可实现页面定制与功能增强，但应谨慎使用以避免影响正常网站加载与安全验证。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的 Reality 功能是什么？</h5></div>
-    <div class="panel-body">
-        Reality 是 V2Ray 新增的伪装技术，可替代传统 TLS。它无需真实证书，通过公钥验证机制实现端到端加密。相比 Trojan 的 HTTPS 伪装方式，Reality 更轻量、安全且配置更简洁。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>如何防止 Clash 被系统防火墙阻断？</h5></div>
-    <div class="panel-body">
-        请在防火墙设置中允许 Clash 的执行文件通过网络访问，并开放其监听端口。若使用 Windows Defender，可在防火墙高级规则中手动添加入站和出站规则，确保代理通信正常。<hr />    </div>
+        WinXray 内置节点测速工具，可以通过延迟测试（ping）或带宽测试判断节点质量。用户只需右键节点选择“测速”即可，测试结果将显示在列表中，帮助快速挑选最佳线路。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Sing-box 精确端口分流如何提升游戏体验？</h5></div>
@@ -352,19 +343,14 @@ ip route flush table 100
         Sing-box 可按端口设置流量分流规则，将游戏流量分配到低延迟节点。结合策略组使用，可保证游戏连接稳定，减少延迟和掉线，提高流畅度。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何安全地在服务器上部署 V2Ray（最小权限原则）？</h5></div>
+    <div class="panel-heading"><h5>SSR 是什么？它与 Shadowsocks 有何不同？</h5></div>
     <div class="panel-body">
-        使用独立非 root 用户运行 V2Ray，限制服务访问端口并仅开放必要端口；配置防火墙规则与 Fail2ban 限制暴力登录；定期更新内核与 V2Ray 版本，并关闭不必要的系统服务以减少攻击面。<hr />    </div>
+        SSR（ShadowsocksR）是 Shadowsocks 的增强版本，增加了多种混淆与加密方式，提高了抗封锁能力。与原版相比，SSR 的兼容性更强，但目前已停止维护，许多用户正逐渐迁移到更先进的 V2Ray 或 Trojan 协议上。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess MUX 功能如何改善短连接延迟？</h5></div>
+    <div class="panel-heading"><h5>V2Ray 的 Reality 功能是什么？</h5></div>
     <div class="panel-body">
-        VMess MUX 多路复用可以将多个短连接共享同一 TCP 或 QUIC 隧道，减少重复握手和连接延迟，特别适合游戏、即时通讯或频繁请求的场景，有效提升响应速度。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 的测速功能如何使用？</h5></div>
-    <div class="panel-body">
-        WinXray 内置节点测速工具，可以通过延迟测试（ping）或带宽测试判断节点质量。用户只需右键节点选择“测速”即可，测试结果将显示在列表中，帮助快速挑选最佳线路。<hr />    </div>
+        Reality 是 V2Ray 新增的伪装技术，可替代传统 TLS。它无需真实证书，通过公钥验证机制实现端到端加密。相比 Trojan 的 HTTPS 伪装方式，Reality 更轻量、安全且配置更简洁。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash.Meta 与原版 Clash 有何不同？</h5></div>
@@ -372,14 +358,29 @@ ip route flush table 100
         Clash.Meta 是社区优化版本，支持更多传输协议，如 Hysteria、TUIC、Reality 等。它还增强了 DNS 处理逻辑和脚本分流能力，适合追求极致速度和灵活规则配置的高级用户。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>VMess MUX 功能如何改善短连接延迟？</h5></div>
+    <div class="panel-body">
+        VMess MUX 多路复用可以将多个短连接共享同一 TCP 或 QUIC 隧道，减少重复握手和连接延迟，特别适合游戏、即时通讯或频繁请求的场景，有效提升响应速度。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>V2Ray 支持哪些传输层协议？</h5></div>
     <div class="panel-body">
         V2Ray 支持多种传输层，包括 TCP、mKCP、WebSocket、gRPC、QUIC 等。每种传输方式都有不同的性能特点，例如 TCP 稳定、WS 兼容 CDN、QUIC 延迟低。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 是什么？它与 Shadowsocks 有何不同？</h5></div>
+    <div class="panel-heading"><h5>如何防止 Clash 被系统防火墙阻断？</h5></div>
     <div class="panel-body">
-        SSR（ShadowsocksR）是 Shadowsocks 的增强版本，增加了多种混淆与加密方式，提高了抗封锁能力。与原版相比，SSR 的兼容性更强，但目前已停止维护，许多用户正逐渐迁移到更先进的 V2Ray 或 Trojan 协议上。    </div>
+        请在防火墙设置中允许 Clash 的执行文件通过网络访问，并开放其监听端口。若使用 Windows Defender，可在防火墙高级规则中手动添加入站和出站规则，确保代理通信正常。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>如何安全地在服务器上部署 V2Ray（最小权限原则）？</h5></div>
+    <div class="panel-body">
+        使用独立非 root 用户运行 V2Ray，限制服务访问端口并仅开放必要端口；配置防火墙规则与 Fail2ban 限制暴力登录；定期更新内核与 V2Ray 版本，并关闭不必要的系统服务以减少攻击面。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>QuantumultX 的重写规则能做什么？</h5></div>
+    <div class="panel-body">
+        重写（Rewrite）可用于修改请求头、屏蔽广告、替换响应内容等。通过正则匹配目标请求可实现页面定制与功能增强，但应谨慎使用以避免影响正常网站加载与安全验证。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -402,22 +403,43 @@ ip route flush table 100
 </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default box right-ad-box">
+    <div class="panel-heading">
+        <h3 class="panel-title">特别推荐</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="text-center">
+                <a href="javascript:;" class="js_to" data-url="https://www.futizi.net/?code=" data-type="Luniuyun" data-code="svvkQf3y" target="_blank">
+                    <img src="/assets/website/img/G/luniuyun.webp" class="avatar" alt="绿牛云">
+                </a>
+                <dl>
+                    <dt><a href="javascript:;" class="js_to" data-url="https://www.futizi.net/?code=" data-type="Luniuyun" data-code="svvkQf3y" target="_blank">绿牛云</a></dt>
+                    <dd>
+                        <p>高速稳定的网络加速</p>
+                        <p>畅享全球内容，访问 ChatGPT、TikTok、Google 等热门网站。
+全平台支持 · 7×24 专业客服 · 采用军工级安全加密传输技术。</p>                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading">
         <h3 class="panel-title">热门文章</h3>
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-4-28-mianfei-vpn.htm" title="APP VPN | 4月28日21.9M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点地址">APP VPN | 4月28日21.9M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-27-vpn-github.htm" title="APP VPN | 5月27日19.9M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点订阅节点地址">APP VPN | 5月27日19.9M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-4-vpn-free.htm" title="APP VPN | 5月4日21.4M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点订阅节点地址">APP VPN | 5月4日21.4M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-22-node-share-links.htm" title="APP VPN | 4月22日19.9M/S|免费V2ray节点/Clash节点/SSR节点/Singbox节点/Trojan节点/Shadowrocket节点订阅节点地址">APP VPN | 4月22日19.9M/S|免费V2ray节点/Clash节点/SSR节点/Singbox节点/Trojan节点/Shadowrocket节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-1-share-vpn.htm" title="APP VPN | 5月1日20.4M/S|免费V2ray节点/Singbox节点/SSR节点/Trojan节点/Shadowrocket节点/Clash节点订阅节点地址">APP VPN | 5月1日20.4M/S|免费V2ray节点/Singbox节点/SSR节点/Trojan节点/Shadowrocket节点/Clash节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-8-vpn-free.htm" title="APP VPN | 5月8日18M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点订阅节点地址">APP VPN | 5月8日18M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-23-top-vpn.htm" title="APP VPN | 5月23日18.6M/S|免费Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Trojan节点订阅节点地址">APP VPN | 5月23日18.6M/S|免费Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Trojan节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-24-mianfei-vpn.htm" title="APP VPN | 4月24日20.5M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Trojan节点/Singbox节点订阅节点地址">APP VPN | 4月24日20.5M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Trojan节点/Singbox节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-30-vpn-github.htm" title="APP VPN | 4月30日20.3M/S|免费V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Singbox节点/Trojan节点订阅节点地址">APP VPN | 4月30日20.3M/S|免费V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Singbox节点/Trojan节点订阅节点地址</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-28-top-vpn.htm" title="APP VPN | 5月28日19.7M/S|免费SSR节点/V2ray节点/Clash节点/Shadowrocket节点/Trojan节点/Singbox节点订阅节点地址">APP VPN | 5月28日19.7M/S|免费SSR节点/V2ray节点/Clash节点/Shadowrocket节点/Trojan节点/Singbox节点订阅节点地址</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-20-free-vpn.htm" title="APP VPN | 5月20日19.1M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Clash节点/Singbox节点订阅节点地址">APP VPN | 5月20日19.1M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Clash节点/Singbox节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-18-free-vpn.htm" title="APP VPN | 5月18日21.6M/S|免费Singbox节点/SSR节点/Trojan节点/Shadowrocket节点/Clash节点/V2ray节点订阅节点地址">APP VPN | 5月18日21.6M/S|免费Singbox节点/SSR节点/Trojan节点/Shadowrocket节点/Clash节点/V2ray节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-24-free-node-subscribe.htm" title="APP VPN | 5月24日21.3M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/Trojan节点订阅节点地址">APP VPN | 5月24日21.3M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/Trojan节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-6-2-mianfei-vpn.htm" title="APP VPN | 6月2日18.8M/S|免费Shadowrocket节点/SSR节点/Clash节点/Trojan节点/Singbox节点/V2ray节点订阅节点地址">APP VPN | 6月2日18.8M/S|免费Shadowrocket节点/SSR节点/Clash节点/Trojan节点/Singbox节点/V2ray节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-25-top-vpn.htm" title="APP VPN | 5月25日20.9M/S|免费Singbox节点/V2ray节点/Clash节点/Trojan节点/Shadowrocket节点/SSR节点订阅节点地址">APP VPN | 5月25日20.9M/S|免费Singbox节点/V2ray节点/Clash节点/Trojan节点/Shadowrocket节点/SSR节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-27-vpn-github.htm" title="APP VPN | 5月27日19.9M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点订阅节点地址">APP VPN | 5月27日19.9M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-11-free-node-subscribe.htm" title="APP VPN | 5月11日18.5M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/Clash节点/SSR节点/V2ray节点订阅节点地址">APP VPN | 5月11日18.5M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/Clash节点/SSR节点/V2ray节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-29-vpn-github.htm" title="APP VPN | 5月29日18.1M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点/Trojan节点订阅节点地址">APP VPN | 5月29日18.1M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点/Trojan节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-12-vpn-free.htm" title="APP VPN | 5月12日20.3M/S|免费Clash节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Singbox节点订阅节点地址">APP VPN | 5月12日20.3M/S|免费Clash节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Singbox节点订阅节点地址</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-26-node-share-links.htm" title="APP VPN | 5月26日20M/S|免费Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点订阅节点地址">APP VPN | 5月26日20M/S|免费Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点订阅节点地址</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -429,10 +451,10 @@ ip route flush table 100
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">28</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
+                <h4><span class="badge" style="float: right;">4</span> <a href="/date/2026-06/" title="2026-06 归档">2026-06</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
             </li>
                     </ul>
     </div>
@@ -462,6 +484,9 @@ ip route flush table 100
                         <a href="/privacy.htm">隐私申明</a> |
                         <a href="/sitemap.xml">网站地图</a>
                     </p>
+                                        <div>特别推荐：<b><a href="javascript:;" class="js_to" data-url="https://www.futizi.net/?code=" data-type="Luniuyun" data-code="svvkQf3y" target="_blank">绿牛云</a></b> <p>高速稳定的网络加速</p>
+                        <p>畅享全球内容，访问 ChatGPT、TikTok、Google 等热门网站。
+全平台支持 · 7×24 专业客服 · 采用军工级安全加密传输技术。</p></div>
                                         <p class="margin-b-0">APP VPN 推荐免费VPN节点订阅中文网 版权所有 Powered by WordPress</p>
                 </div>
             </div>
